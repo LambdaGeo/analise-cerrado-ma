@@ -23,8 +23,8 @@ Using PRODES Cerrado data (INPE), the study examines the temporal evolution of a
 | `analise_bioma.ipynb` | Deforestation totals for the Cerrado of Maranhão and the annual increment and its year-on-year change (Figure 4). |
 | `analise_microregioes.ipynb` | Deforestation by microregion, 2000 and 2023 (Table 1); exports the data behind Figure 5. |
 | `analise_municipios.ipynb` | Deforestation by municipality: absolute ranking (Table 3) and relative ranking (Table 4); exports the data behind Figure 6. |
-| `analise_grade_micro.ipynb` | Deforestation on a regular 10 × 10 km grid (Figure 7). **Needs input data that is not yet in this repository** (see below). |
-| `calculo_area_ti.ipynb` | Deforestation inside one Indigenous Land (Krikati). **Needs input data that is not yet in this repository** (see below). |
+| `analise_grade_micro.ipynb` | Deforestation on a regular 10 × 10 km grid (Figure 7); exports the grid for map composition. |
+| `calculo_area_ti.ipynb` | Deforestation inside one Indigenous Land (Krikati), as a check of the TerraBrasilis value in Table 5. **Needs input data that is not in this repository** (see below). |
 | `report_en.ipynb`, `report_en.pdf`, `build_report.py` | English companion report and the script that rebuilds it. |
 | `tables.html` | HTML version of the municipal tables. |
 | `dados/` | Input data (see below). |
@@ -38,10 +38,16 @@ Tables 2 and 5 of the article were taken from the TerraBrasilis portal and are n
 |------|--------|
 | `dados/csv/terrabrasilis_cerrado_5_18_2024,_11_26_39 AM.csv` | Annual deforestation by municipality, PRODES Cerrado, downloaded from [TerraBrasilis](https://terrabrasilis.dpi.inpe.br/) (INPE) on 18 May 2024. Biennial until 2012, annual from 2013. |
 | `dados/desmatamento/microregiao_ma_cerrado_desmatamento.zip` | Share of each microregion's Cerrado area deforested by 2000 and from 2001 to 2023, computed from PRODES in Google Earth Engine. |
+| `dados/desmatamento/grade_cerrado_ma_prodes.zip` | Regular grid over the Cerrado of Maranhão with the share of each cell deforested up to 2000 (`d2000`) and from 2001 to 2023 (`d001_23`), computed from PRODES. |
 | `dados/limites/MA_Microrregioes_2022.zip`, `MA_Municipios_2022.zip` | IBGE 2022 territorial boundaries. |
 | `dados/limites/cerrado_maranhense.zip` | Boundary of the Cerrado biome in Maranhão. |
 
-`analise_grade_micro.ipynb` and `calculo_area_ti.ipynb` still read four files from a local folder (the regular grid with PRODES deforestation, Indigenous Land polygons and the yearly PRODES polygons for the Cerrado of Maranhão). Their saved outputs are kept, but they cannot be re-run from this repository until those files are added to `dados/`.
+Two inputs are not in this repository:
+
+* `calculo_area_ti.ipynb` reads the Indigenous Land polygons (FUNAI) and the yearly PRODES polygons for the Cerrado of Maranhão from a local folder. Its saved outputs are kept, but it cannot be re-run from a fresh clone. It is not needed for any result of the article.
+* `analise_grade_micro.ipynb` can draw the outlines of selected Indigenous Lands on one of its maps (`dados/limites/tis_selecionadas.zip`). Without that file the map is drawn without them; nothing else changes.
+
+Figure 8 of the article (deforestation from 2015 to 2023 on the grid) was not produced by these notebooks.
 
 ## Getting started
 
