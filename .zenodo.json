@@ -1,0 +1,22 @@
+{
+  "upload_type": "software",
+  "title": "analise-cerrado-ma: Expansion of deforestation in the Cerrado of Maranhão State, Brazil (2001-2023)",
+  "description": "Code and data used in the article \"Expansão do desmatamento no cerrado maranhense entre os anos de 2001 – 2023\" (Revista Tocantinense de Geografia, v. 15, n. 35, 2026). Jupyter notebooks analyse PRODES Cerrado deforestation data (INPE, TerraBrasilis) for the Cerrado of Maranhão, Brazil, by biome, microregion and municipality. Includes an English companion report (report_en.pdf) generated from the notebooks.",
+  "creators": [
+    {"name": "Correia, Luís Fernando Cirqueira da Silva", "affiliation": "Universidade Federal do Maranhão (UFMA)", "orcid": "0009-0004-4350-1478"},
+    {"name": "Rocha, Thomas Victor de Sousa Malheiros", "affiliation": "Universidade Federal do Maranhão (UFMA)", "orcid": "0009-0000-2623-7944"},
+    {"name": "Bezerra, Denilson da Silva", "affiliation": "Universidade Federal do Maranhão (UFMA)", "orcid": "0000-0002-9567-7828"},
+    {"name": "Silva Junior, Celso Henrique Leite", "affiliation": "Universidade Federal do Maranhão (UFMA)", "orcid": "0000-0002-1052-5551"},
+    {"name": "Costa, Sérgio Souza", "affiliation": "Universidade Federal do Maranhão (UFMA)", "orcid": "0000-0002-0232-4549"}
+  ],
+  "license": "MIT",
+  "keywords": ["deforestation", "Cerrado", "PRODES", "Maranhão", "remote sensing"],
+  "related_identifiers": [
+    {
+      "identifier": "10.70860/rtg.v15i35.19356",
+      "relation": "isSupplementTo",
+      "resource_type": "publication-article",
+      "scheme": "doi"
+    }
+  ]
+}
