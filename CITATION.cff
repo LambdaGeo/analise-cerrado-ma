@@ -1,0 +1,60 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite the article below."
+title: "analise-cerrado-ma: Expansion of deforestation in the Cerrado of Maranhão State, Brazil (2001-2023)"
+type: software
+license: MIT
+authors:
+  - family-names: Correia
+    given-names: Luís Fernando Cirqueira da Silva
+    orcid: "https://orcid.org/0009-0004-4350-1478"
+    affiliation: Universidade Federal do Maranhão (UFMA)
+  - family-names: Rocha
+    given-names: Thomas Victor de Sousa Malheiros
+    orcid: "https://orcid.org/0009-0000-2623-7944"
+    affiliation: Universidade Federal do Maranhão (UFMA)
+  - family-names: Bezerra
+    given-names: Denilson da Silva
+    orcid: "https://orcid.org/0000-0002-9567-7828"
+    affiliation: Universidade Federal do Maranhão (UFMA)
+  - family-names: Silva Junior
+    given-names: Celso Henrique Leite
+    orcid: "https://orcid.org/0000-0002-1052-5551"
+    affiliation: Universidade Federal do Maranhão (UFMA)
+  - family-names: Costa
+    given-names: Sérgio Souza
+    orcid: "https://orcid.org/0000-0002-0232-4549"
+    affiliation: Universidade Federal do Maranhão (UFMA)
+    email: sergio.costa@ufma.br
+repository-code: "https://github.com/LambdaGeo/analise-cerrado-ma"
+keywords:
+  - deforestation
+  - Cerrado
+  - PRODES
+  - Maranhão
+  - remote sensing
+preferred-citation:
+  type: article
+  title: "Expansão do desmatamento no cerrado maranhense entre os anos de 2001 – 2023"
+  authors:
+    - family-names: Correia
+      given-names: Luís Fernando Cirqueira da Silva
+      orcid: "https://orcid.org/0009-0004-4350-1478"
+    - family-names: Rocha
+      given-names: Thomas Victor de Sousa Malheiros
+      orcid: "https://orcid.org/0009-0000-2623-7944"
+    - family-names: Bezerra
+      given-names: Denilson da Silva
+      orcid: "https://orcid.org/0000-0002-9567-7828"
+    - family-names: Silva Junior
+      given-names: Celso Henrique Leite
+      orcid: "https://orcid.org/0000-0002-1052-5551"
+    - family-names: Costa
+      given-names: Sérgio Souza
+      orcid: "https://orcid.org/0000-0002-0232-4549"
+  journal: "Revista Tocantinense de Geografia"
+  year: 2026
+  volume: 15
+  issue: "35"
+  start: 45
+  end: 67
+  doi: "10.70860/rtg.v15i35.19356"
